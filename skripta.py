@@ -15,7 +15,7 @@ driver = webdriver.Chrome(executable_path = 'C:\gecko\chromedriver.exe')
 driver.get('https://geosco.mp-objects.com/geosco/authentication/login-form')
 
 usr = "odrca"
-pwd = "OgnjenDrca12."
+pwd = "*********"
 
 
 user_input = driver.find_element_by_xpath('//*[@id="j_username"]')
